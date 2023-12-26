@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T18:22:07.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="PyoKh1kVv-J6YZwIbagI" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T18:30:31.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="1VLnor39pNACyTJRSxrX" version="22.1.11" type="github">
   <diagram name="Page-1" id="drPBE6jf5KuJ7vDPj_UH">
     <mxGraphModel dx="2236" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-1" value="AWS Masking Account B" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="160" width="650" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxsAqVlUkiiz6HuOmoy-1" source="bnxsAqVlUkiiz6HuOmoy-34" target="bnxsAqVlUkiiz6HuOmoy-122">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-34" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.well_architect_tool;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-1">
           <mxGeometry x="230" y="61" width="59" height="59" as="geometry" />
@@ -78,6 +81,12 @@
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-110" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-1">
           <mxGeometry x="581.48" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-122" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-1">
+          <mxGeometry x="381" y="76" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-125" value="Secret for local db user creds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-1">
+          <mxGeometry x="420" y="70" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-2" value="AWS Test Account C" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="670" width="340" height="240" as="geometry" />
@@ -308,6 +317,9 @@
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-119" value="Redshift Cluster - This will have database/schema/tables which are masked in AWS Test account C" style="whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeColor=#d3d3d3;strokeWidth=2;spacingBottom=4;spacingRight=2;" vertex="1" parent="1">
           <mxGeometry x="110" y="990" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-121" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AWS serverless Data Migration with PII Masked data&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This Architecture is created and deployed successfully as per the requirements specified below:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Data in the Redshift cluster should not leave the cluster without masking.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Test account can only have Masked PII data like Credit card # etc.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Test account&#39;s Redshift cluster is going to be used by Machine learning teams for BI reports.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. For less risk Data should be masked by third party Dedicated Static data masking tool selected by the standards.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. Connection from third party tool should be made through local db user with limited privileges.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. 60 tables with ~500 M data to be staged and then data to be transferred after masking to Test Account.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7. Only masked tables should be copied to Test Redshift cluster not all.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-319" y="-230" width="620" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
