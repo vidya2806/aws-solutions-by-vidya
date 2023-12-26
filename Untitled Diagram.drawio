@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T17:50:56.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="7t2Bm3Ahs_ibRtvPQBop" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T17:52:47.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="khiUfpIaoTep-tQDPrJq" version="22.1.11" type="github">
   <diagram name="Page-1" id="drPBE6jf5KuJ7vDPj_UH">
     <mxGraphModel dx="2236" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="230" y="61" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-35" value="AWS Step Functions workflow" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_step_functions_workflow;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-1">
-          <mxGeometry x="120" y="150" width="300" height="200" as="geometry" />
+          <mxGeometry x="50" y="150" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxsAqVlUkiiz6HuOmoy-35" source="bnxsAqVlUkiiz6HuOmoy-36" target="bnxsAqVlUkiiz6HuOmoy-37">
           <mxGeometry relative="1" as="geometry" />
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-37" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-35">
           <mxGeometry x="110" y="110" width="50" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-45" value="Data masking with a third party vendor tool for selected tables in redshift in customer&#39;s database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bnxsAqVlUkiiz6HuOmoy-35">
+          <mxGeometry y="85" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bnxsAqVlUkiiz6HuOmoy-1" source="bnxsAqVlUkiiz6HuOmoy-36">
           <mxGeometry relative="1" as="geometry">
