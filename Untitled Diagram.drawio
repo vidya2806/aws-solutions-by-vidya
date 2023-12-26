@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T18:39:53.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="0pksplZMLtkvW36U2jZS" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T18:41:50.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="CsYoJi8f7gOY4Kp6yRY7" version="22.1.11" type="github">
   <diagram name="Page-1" id="drPBE6jf5KuJ7vDPj_UH">
     <mxGraphModel dx="3725" dy="2408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
           <mxGeometry x="-790" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-97" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="180" width="240" height="470" as="geometry" />
+          <mxGeometry x="-840" y="180" width="240" height="660" as="geometry" />
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnxsAqVlUkiiz6HuOmoy-98" target="bnxsAqVlUkiiz6HuOmoy-99">
           <mxGeometry relative="1" as="geometry" />
@@ -318,6 +318,15 @@
         </mxCell>
         <mxCell id="bnxsAqVlUkiiz6HuOmoy-121" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AWS serverless Data Migration with PII Masked data&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This Architecture is created and deployed successfully as per the requirements specified below:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Data in the Redshift cluster should not leave the cluster without masking.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Test account can only have Masked PII data like Credit card # etc.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Test account&#39;s Redshift cluster is going to be used by Machine learning teams for BI reports.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. For less risk Data should be masked by third party Dedicated Static data masking tool selected by the standards.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. Connection from third party tool should be made through local db user with limited privileges.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. 60 tables with ~500 M data to be staged and then data to be transferred after masking to Test Account.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7. Only masked tables should be copied to Test Redshift cluster not all.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-319" y="-230" width="620" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnxsAqVlUkiiz6HuOmoy-134" target="bnxsAqVlUkiiz6HuOmoy-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-134" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="650" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnxsAqVlUkiiz6HuOmoy-135" value="Event rule - This will send payload with only successfull load in staging tables names with schema in a dictionary to the masking step fucntion" style="whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeColor=#d3d3d3;strokeWidth=2;spacingBottom=4;spacingRight=2;" vertex="1" parent="1">
+          <mxGeometry x="-755" y="630" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
